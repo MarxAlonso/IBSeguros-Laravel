@@ -9,6 +9,10 @@
     href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css" />
     <link rel="stylesheet" type="text/css" href="{{ asset('/css/bootstrap.css') }}" />
     <link rel="stylesheet" type="text/css" href="{{ asset('/css/bootstrap.min.css') }}" />
+    <link rel="stylesheet" type="text/css" href="{{ asset('/css/estilos.css') }}" />
+    <link rel="stylesheet" type="text/css" href="{{ asset('/css/responsive.css') }}" />
+    <link rel="stylesheet" type="text/css" href="{{ asset('/css/formstyle.css') }}" />
+    <link rel="stylesheet" type="text/css" href="{{ asset('/css/font-awesome.min.css') }}" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css" />
     <link href="https://fonts.googleapis.com/css?family=Poppins:400,700|Roboto:400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
@@ -71,7 +75,8 @@
 
     <script type="text/javascript" src="{{ asset('/js/jquery-3.4.1.min.js') }}"></script>
     <script type="text/javascript" src="{{ asset('/js/bootstrap.min.js') }}"></script>
-    
+    <script src="{{asset('/js/carrousel-inicio-seguros.js')}}"></script>
+    <script src="{{asset('/js/carrousel-inicio.js')}}"></script>
     <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.7/glider.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
 </body>
