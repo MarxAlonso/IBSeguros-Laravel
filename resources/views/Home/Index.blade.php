@@ -144,7 +144,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6 a">
-            <img src="views/images/IMAGEN-1-PASO-1.png" alt="Imagen" class="img-fluid mx-auto d-block">
+            <img src="{{asset('/images/IMAGEN-1-PASO-1.png')}}" alt="Imagen" class="img-fluid mx-auto d-block">
           </div>
           <div class="col-md-6 ">
             <p class="paso">Primer paso:</p>
@@ -165,13 +165,13 @@
             </div>
           </div>
           <div class="col-md-4 align-self-center ">
-            <img src="views/images/IMAGEN-2-PASO-2.png" alt="Imagen" class="img-fluid mx-auto d-block">
+            <img src="{{asset('/images/IMAGEN-2-PASO-2.png')}}" alt="Imagen" class="img-fluid mx-auto d-block">
           </div>
         </div>
   
         <div class="row">
           <div class="col-md-6 a">
-            <img src="views/images/IMAGEN-3-PASO-3.png" alt="Imagen" class="img-fluid mx-auto d-block" style="width: 33%;height: auto;">
+            <img src="{{asset('/images/IMAGEN-3-PASO-3.png')}}" alt="Imagen" class="img-fluid mx-auto d-block" style="width: 33%;height: auto;">
           </div>
           <div class="col-md-6 align-self-center">
             <p class="paso">Tercer paso:</p>
@@ -183,21 +183,9 @@
           </div>
         </div>
       </div>
-  
-  
-  
-  
-  
     </div>
-  
-  
     <!-- *************  FIN NOSOTROS *************** -->
-  
-  
-  
     <!-- ****** Servicios ******** -->
-  
-  
     <section id="bloghome">
       <div class="container py-5 wow animate__animated animate__fadeInUp " data-wow-duration="3s">
         <div class="carousel">
@@ -221,7 +209,7 @@
                     <div class="card_elemento">
                       <div class="card__blog">
   
-                        <img src="views/images/seguro-sctr.jpg" style="height: 194px;width: 100%;" />
+                        <img src="{{asset('/images/seguro-sctr.jpg')}}" style="height: 194px;width: 100%;" />
                         <div class="p-3 bg-white">
                           <h5 style="font-size:medium;font-weight: 600;">SCTR</h5>
                           <p class="p-0 m-0 text-justify" style="color:gray">
@@ -241,7 +229,7 @@
                   <div class="lista_elementos container homeport1">
                     <div class="card_elemento">
                       <div class="card__blog">
-                        <img src="views/images/seguro-eps.jpg" style="height: 194px;width: 100%;" />
+                        <img src="{{asset('/images/seguro-eps.jpg')}}" style="height: 194px;width: 100%;" />
                         <div class="p-3 bg-white">
                           <h5 style="font-size:medium;font-weight: 600;">EPS</h5>
                           <p class="p-0 m-0 text-justify" style="color:gray">
@@ -263,7 +251,7 @@
                   <div class="lista_elementos container homeport1">
                     <div class="card_elemento">
                       <div class="card__blog">
-                        <img src="views/images/seguro-vida.jpg" style="height: 194px;width: 100%;" />
+                        <img src="{{asset('/images/seguro-vida.jpg')}}" style="height: 194px;width: 100%;" />
                         <div class="p-3 bg-white texte-white">
                           <h5 style="font-size:medium;font-weight: 600;">Seguro de vida</h5>
                           <p class="p-0 m-0 text-justify" style="color:gray">
@@ -287,7 +275,7 @@
                     <div class="card_elemento">
                       <div class="card__blog">
   
-                        <img src="views/images/seguro-vida-ley.jpg" style="height: 194px;width: 100%;" />
+                        <img src="{{asset('/images/seguro-vida-ley.jpg')}}" style="height: 194px;width: 100%;" />
                         <div class="p-3 bg-white texte-white">
                           <h5 style="font-size:medium;font-weight: 600;">
                             Seguro de Vida Ley</h5>
@@ -309,7 +297,7 @@
                     <div class="card_elemento">
                       <div class="card__blog">
   
-                        <img src="views/images/seguro-vehicular.jpg" style="height: 194px;width: 100%;" />
+                        <img src="{{asset('/images/seguro-vehicular.jpg')}}" style="height: 194px;width: 100%;" />
                         <div class="p-3 bg-white texte-white">
                           <h5 style="font-size:medium;font-weight: 600;">Seguro Vehicular</h5>
                           <p class="p-0 m-0 text-justify" style="color:gray">
@@ -331,7 +319,7 @@
                     <div class="card_elemento">
                       <div class="card__blog">
   
-                        <img src="views/images/seguro-viajes.jpg" style="height: 194px;width: 100%;" />
+                        <img src="{{asset('/images/seguro-viajes.jpg')}}" style="height: 194px;width: 100%;" />
                         <div class="p-3 bg-white texte-white">
                           <h5 style="font-size:medium;font-weight: 600;">Seguro de Viaje</h5>
                           <p class="p-0 m-0 text-justify" style="color:gray">
@@ -346,10 +334,6 @@
                   </div>
                 </div>
               </div>
-  
-  
-  
-  
             </div>
   
           </div>
@@ -477,7 +461,7 @@
       <div class="row">
         <div class="col-md-6 custom-col-80" style="margin-top:2%;">
           <div class="img-container" style="position: relative;">
-            <img src="views/images/ibseguros4.png " style="filter: invert(19%) sepia(18%) saturate(877%) hue-rotate(144deg) brightness(89%) contrast(87%); margin-top: -20px;" alt="Imagen" class="img-fluid mx-auto d-block zoom-img" Style="height:400px">
+            <img src="{{asset('/images/ibseguros4.png')}} " style="filter: invert(19%) sepia(18%) saturate(877%) hue-rotate(144deg) brightness(89%) contrast(87%); margin-top: -20px;" alt="Imagen" class="img-fluid mx-auto d-block zoom-img" Style="height:400px">
             <div class="content" style="position: absolute; top: 0; left: 0; width: 100%;">
               <p class="paso-1">IBSEGUROS</p>
               <p class="paso-2">¿Deseas encontrar </p>
@@ -492,7 +476,7 @@
         <div class="col-md-6">
           <div class="contenido-paso" style="margin-left: 15px; position: relative;">
             <div class="img-container" style="height: 438px;">
-              <img src="views/images/emergency-room.jpg" alt="Imagen" class="img-fluid mx-auto d-block zoom-img" Style="height: 437px;">
+              <img src="{{asset('/images/emergency-room.jpg')}}" alt="Imagen" class="img-fluid mx-auto d-block zoom-img" Style="height: 437px;">
               <div class="overlay">
                 <div class="form-container">
                   <!-- Aquí va tu formulario -->
@@ -525,26 +509,7 @@
       </div>
     </div>
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
     <!-- ****** Fin  Promociones ******** -->
-  
-  
-  
     <!-- *************** contactos ********************* -->
   
     <section class="contact_section layout_padding-bottom mt-5">
@@ -617,17 +582,13 @@
             </div>
             <div class="col-md-3">
               <div class="text-center" style="width:415px">
-                <img src="views/images/personaje.png" alt="Descripción de la imagen" class="img-fluid" style="margin-left:8px">
+                <img src="{{asset('/images/personaje.png')}}" alt="Descripción de la imagen" class="img-fluid" style="margin-left:8px">
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
-  
-  
-  
-  
     <!-- *************** FIN CONTACTO ********************* -->
     <style>
       @media (max-width: 480px) {

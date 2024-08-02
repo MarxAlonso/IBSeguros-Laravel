@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="{{ asset ('/images/logo1.png') }}" type="image/x-icon" />
+    <link href="{{asset('/images/ibseguros2.png')}}" rel="shortcut icon" /> 
+    <link href="{{asset('/images/ibseguros2.png')}}" rel="icon" />
     <title>IBSeguros</title>
     <link rel="stylesheet" type="text/css"
     href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css" />
@@ -78,6 +79,18 @@
     <script src="{{asset('/js/carrousel-inicio-seguros.js')}}"></script>
     <script src="{{asset('/js/carrousel-inicio.js')}}"></script>
     <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.7/glider.min.js"></script>
+    <script src="{{asset('/js/menuresponsive.js')}}"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+    <script src="views/js/glider.js"></script>
+    <script src="{{asset('/js/glider.min.js')}}"></script>
+    <script src="{{asset('/js/jquery-3.5.1.min.js')}}"></script>
+    <script type="text/javascript" src="{{asset('/js/app.js')}}"></script>
+    <script src="{{asset('/js/ajax.js')}}"></script>
+    <script src="{{asset('/js/app.js')}}"></script>
+    <script src="{{asset('/js/bootstrap.bundle.js')}}"></script>
+    <script src="{{asset('/js/bootstrap.min.js')}}"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script src="/js/tipodepersona.js"></script>
+    <script src="https://kit.fontawesome.com/c1eae85dfa.js" crossorigin="anonymous"></script>
 </body>
 </html>
