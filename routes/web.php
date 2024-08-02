@@ -5,3 +5,4 @@ use App\Http\Controllers\HomeController;
 
 Route::get('/', [HomeController::class, 'index'])->name('inicio');
 Route::get('/seguros', [HomeController::class, 'seguros'])->name('seguros');
+Route::get('/agente', [HomeController::class, 'agente'])->name('agente');

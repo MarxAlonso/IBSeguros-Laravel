@@ -21,4 +21,12 @@ class HomeController extends Controller
 
         return view('Shared/_Layout', $data);
     }
+    public function agente()
+    {
+        $data = [
+            'renderBody' => view('Agente/Index')
+        ];
+
+        return view('Shared/_Layout', $data);
+    }
 }
